@@ -223,7 +223,7 @@ flowchart TD
 
 ## 📖 근거 자료
 
-나중에 다시 확인하기 쉽도록 자료별로 첫 화면과 근거 위치를 남겼습니다.
+나중에 다시 확인하기 쉽도록 자료별로 첫 화면과 근거 부분 화면을 남겼습니다.
 
 ### GEO 원논문 (KDD 2024)
 
@@ -233,6 +233,10 @@ flowchart TD
 - **근거 위치**: 초록, 학회 채택 표기
 - **확인 내용**: "최대 40%"라는 수치와 KDD 2024 채택
 
+![초록의 40% 표기](docs/sources/evidence-paper-40.jpg)
+![KDD 2024 채택 표기](docs/sources/evidence-paper-kdd.jpg)
+
+
 ### GEO 비판적 서베이 (2026)
 
 ![GEO 서베이 제목 화면](docs/sources/geo-survey.jpg)
@@ -240,6 +244,10 @@ flowchart TD
 - **링크**: [arXiv 2607.14035](https://arxiv.org/html/2607.14035v1)
 - **근거 위치**: 4.1절, 6.3절
 - **확인 내용**: 원논문의 실험 조건, 검색 미발동 응답을 다루는 방법
+
+![4.1절 원논문 실험 조건](docs/sources/evidence-survey-setting.jpg)
+![6.3절 검색 미발동 응답](docs/sources/evidence-survey-search.jpg)
+
 
 ### 인용 선택과 답변 반영 측정 연구 (2026)
 
@@ -249,6 +257,9 @@ flowchart TD
 - **근거 위치**: 6장 "Results: Search Triggering and Citation Breadth"
 - **확인 내용**: 프롬프트 602개, 평균 인용 6.88개 · 16.35개
 
+![6장 플랫폼별 인용 수 표](docs/sources/evidence-measurement-table.jpg)
+
+
 ### Ahrefs 구조화 데이터 실험 (2026)
 
 ![Ahrefs 실험 제목 화면](docs/sources/ahrefs-schema.jpg)
@@ -256,6 +267,9 @@ flowchart TD
 - **링크**: [Ahrefs Blog](https://ahrefs.com/blog/schema-ai-citations/)
 - **근거 위치**: 제목, "Adding schema didn't boost citations" 부분
 - **확인 내용**: 페이지 1,885개와 대조군 4,000개
+
+![실험 표본 설명](docs/sources/evidence-ahrefs-sample.jpg)
+
 
 ### Google 생성형 AI 최적화 가이드
 
@@ -265,3 +279,8 @@ flowchart TD
 - **근거 위치**: "Mythbusting generative AI search" 부분
 - **확인 내용**: `llms.txt`, 콘텐츠 쪼개기를 다루는 위치
 - **문서 표기**: 최종 수정 2026-07-10
+
+![Mythbusting 제목](docs/sources/evidence-google-heading.jpg)
+![llms.txt 안내](docs/sources/evidence-google-llms.jpg)
+![콘텐츠 쪼개기 안내](docs/sources/evidence-google-chunk.jpg)
+
