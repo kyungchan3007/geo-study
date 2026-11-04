@@ -1,0 +1,13 @@
+{
+  "name": "geo-study",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "demo": "node scripts/demo.mjs",
+    "check": "node tools/geo-check.mjs",
+    "botlog": "node tools/bot-log.mjs",
+    "probe": "node tools/citation-probe.mjs",
+    "test": "node --test"
+  },
+  "engines": { "node": ">=20" }
+}
