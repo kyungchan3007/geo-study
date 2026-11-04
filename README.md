@@ -242,7 +242,6 @@ flowchart TD
 ![GEO 서베이 제목 화면](docs/sources/geo-survey.jpg)
 
 - **링크**: [arXiv 2607.14035](https://arxiv.org/html/2607.14035v1)
-- **근거 위치**: 4.1절, 6.3절
 - **확인 내용**: 원논문의 실험 조건, 검색 미발동 응답을 다루는 방법
 
 ![4.1절 원논문 실험 조건](docs/sources/evidence-survey-setting.jpg)
