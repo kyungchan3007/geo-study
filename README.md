@@ -110,8 +110,8 @@ flowchart TD
 ### 없어도 된다고 본 것
 
 - **`llms.txt`**: 효과 근거가 부족해서
-- **AI 전용 페이지**: 구글이 불필요하다고 안내해서
-- **콘텐츠 잘게 쪼개기**: 구글이 권장하지 않아서
+- **AI 전용 파일 · 마크다운**: 구글 검색에는 필요 없다고 안내해서
+- **콘텐츠 잘게 쪼개기**: 구글이 필요 없다고 안내해서
 - **FAQ 구조화 데이터 남용**: 화면과 어긋날 위험이 있어서
 
 ### 하지 않으려는 것
@@ -192,36 +192,6 @@ flowchart TD
 
 ---
 
-## 🚀 실행해 보기
-
-외부 패키지 없이 Node.js 20 이상이면 실행할 수 있습니다.
-
-예제 사이트 점검:
-
-```bash
-npm run demo
-```
-
-테스트:
-
-```bash
-npm test
-```
-
-원하는 사이트 점검:
-
-```bash
-node tools/geo-check.mjs https://example.com / /about
-```
-
-Claude 인용 측정 (Claude Code 구독 로그인 필요):
-
-```bash
-node tools/citation-probe.mjs questions.txt example.com 3 results.jsonl
-```
-
----
-
 ## 📁 구성
 
 - `sites/before.mjs`: 크롤러에게 안 보이는 예제 사이트
@@ -251,11 +221,57 @@ node tools/citation-probe.mjs questions.txt example.com 3 results.jsonl
 
 ---
 
-## 📖 참고 자료
+## 📖 근거 자료
 
-- [GEO: Generative Engine Optimization (KDD 2024)](https://arxiv.org/abs/2311.09735)
-- [A Critical Survey of GEO, 2023–2026](https://arxiv.org/html/2607.14035v1)
-- [From Citation Selection to Citation Absorption](https://arxiv.org/html/2604.25707v2)
-- [Ahrefs: 구조화 데이터와 AI 인용 실험](https://ahrefs.com/blog/schema-ai-citations/)
-- [llms.txt 근거 정리](https://pixis.ai/blog/does-llms-txt-help-ai-citations-what-the-evidence-actually-shows/)
-- [Google: AI features and your website](https://developers.google.com/search/docs/appearance/ai-features)
+나중에 다시 확인하기 쉽도록 자료별로 첫 화면과 근거 위치를 남겼습니다.
+
+- **확인일**: 2026-11-05
+- **캡처 범위**: 어떤 자료인지 알 수 있는 제목 부분만 저장했습니다.
+- **본문 제외**: 저작권을 고려해 본문은 옮기지 않고 위치만 적었습니다.
+
+### GEO 원논문 (KDD 2024)
+
+![GEO 원논문 제목 화면](docs/sources/geo-paper.jpg)
+
+- **링크**: [arXiv 2311.09735](https://arxiv.org/abs/2311.09735)
+- **근거 위치**: 초록, 학회 채택 표기
+- **확인 내용**: "최대 40%"라는 수치와 KDD 2024 채택
+
+### GEO 비판적 서베이 (2026)
+
+![GEO 서베이 제목 화면](docs/sources/geo-survey.jpg)
+
+- **링크**: [arXiv 2607.14035](https://arxiv.org/html/2607.14035v1)
+- **근거 위치**: 4.1절, 6.3절
+- **확인 내용**: 원논문의 실험 조건, 검색 미발동 응답을 다루는 방법
+
+### 인용 선택과 답변 반영 측정 연구 (2026)
+
+![측정 연구 제목 화면](docs/sources/geo-measurement.jpg)
+
+- **링크**: [arXiv 2604.25707](https://arxiv.org/html/2604.25707v2)
+- **근거 위치**: 6장 "Results: Search Triggering and Citation Breadth"
+- **확인 내용**: 프롬프트 602개, 평균 인용 6.88개 · 16.35개
+
+### Ahrefs 구조화 데이터 실험 (2026)
+
+![Ahrefs 실험 제목 화면](docs/sources/ahrefs-schema.jpg)
+
+- **링크**: [Ahrefs Blog](https://ahrefs.com/blog/schema-ai-citations/)
+- **근거 위치**: 제목, "Adding schema didn't boost citations" 부분
+- **확인 내용**: 페이지 1,885개와 대조군 4,000개
+
+### Google 생성형 AI 최적화 가이드
+
+![Google 가이드 제목 화면](docs/sources/google-guide.jpg)
+
+- **링크**: [Google Search Central](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide)
+- **근거 위치**: "Mythbusting generative AI search" 부분
+- **확인 내용**: `llms.txt`, 콘텐츠 쪼개기를 다루는 위치
+- **문서 표기**: 최종 수정 2026-07-10
+
+### 그 밖의 자료
+
+- [Google: AI features and your website](https://developers.google.com/search/docs/appearance/ai-features): AI 기능의 별도 요구사항 안내
+- [Pixis: llms.txt 근거 정리](https://pixis.ai/blog/does-llms-txt-help-ai-citations-what-the-evidence-actually-shows/): "Does llms.txt increase AI citations?" 부분
+- Pixis 페이지는 자동 캡처에서 화면이 비어 이미지를 넣지 못했습니다.
