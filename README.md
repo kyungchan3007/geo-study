@@ -230,7 +230,6 @@ flowchart TD
 ![GEO 원논문 제목 화면](docs/sources/geo-paper.jpg)
 
 - **링크**: [arXiv 2311.09735](https://arxiv.org/abs/2311.09735)
-- **근거 위치**: 초록, 학회 채택 표기
 - **확인 내용**: "최대 40%"라는 수치와 KDD 2024 채택
 
 ![초록의 40% 표기](docs/sources/evidence-paper-40.jpg)
@@ -253,7 +252,6 @@ flowchart TD
 ![측정 연구 제목 화면](docs/sources/geo-measurement.jpg)
 
 - **링크**: [arXiv 2604.25707](https://arxiv.org/html/2604.25707v2)
-- **근거 위치**: 6장 "Results: Search Triggering and Citation Breadth"
 - **확인 내용**: 프롬프트 602개, 평균 인용 6.88개 · 16.35개
 
 ![6장 플랫폼별 인용 수 표](docs/sources/evidence-measurement-table.jpg)
@@ -264,7 +262,6 @@ flowchart TD
 ![Ahrefs 실험 제목 화면](docs/sources/ahrefs-schema.jpg)
 
 - **링크**: [Ahrefs Blog](https://ahrefs.com/blog/schema-ai-citations/)
-- **근거 위치**: 제목, "Adding schema didn't boost citations" 부분
 - **확인 내용**: 페이지 1,885개와 대조군 4,000개
 
 ![실험 표본 설명](docs/sources/evidence-ahrefs-sample.jpg)
@@ -275,7 +272,6 @@ flowchart TD
 ![Google 가이드 제목 화면](docs/sources/google-guide.jpg)
 
 - **링크**: [Google Search Central](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide)
-- **근거 위치**: "Mythbusting generative AI search" 부분
 - **확인 내용**: `llms.txt`, 콘텐츠 쪼개기를 다루는 위치
 - **문서 표기**: 최종 수정 2026-07-10
 
