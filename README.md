@@ -183,8 +183,6 @@ flowchart TD
 
 ## 📖 근거 자료
 
-나중에 다시 확인하기 쉽도록 자료별로 첫 화면과 근거 부분 화면을 남겼습니다.
-
 ### GEO 원논문 (KDD 2024)
 
 ![GEO 원논문 제목 화면](docs/sources/geo-paper.jpg)
