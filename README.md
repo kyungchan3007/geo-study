@@ -265,9 +265,3 @@ flowchart TD
 - **근거 위치**: "Mythbusting generative AI search" 부분
 - **확인 내용**: `llms.txt`, 콘텐츠 쪼개기를 다루는 위치
 - **문서 표기**: 최종 수정 2026-07-10
-
-### 그 밖의 자료
-
-- [Google: AI features and your website](https://developers.google.com/search/docs/appearance/ai-features): AI 기능의 별도 요구사항 안내
-- [Pixis: llms.txt 근거 정리](https://pixis.ai/blog/does-llms-txt-help-ai-citations-what-the-evidence-actually-shows/): "Does llms.txt increase AI citations?" 부분
-- Pixis 페이지는 자동 캡처에서 화면이 비어 이미지를 넣지 못했습니다.
